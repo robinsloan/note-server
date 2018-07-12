@@ -1,10 +1,10 @@
-#A note server
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I have been meaning to do this FOREVER and I finally did: a local service that populates new browser tabs with random selections from my very large database of notes. The idea is to keep the stew circulating. Aerate the deeper layers. Maybe it will drive me mad. We&#39;ll see. <a href="https://t.co/t6c9JT5uju">pic.twitter.com/t6c9JT5uju</a></p>&mdash; Robin Sloan (@robinsloan) <a href="https://twitter.com/robinsloan/status/1017202162219143168?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+# A note server
 
 ![An example of a note in a browser tab](/img/note-example.png)
 
-Here, you'll find the hacky work of an afternoon packaged up for macOS and... odds are good you *won't* be able to get it to run on your Mac! I'm sharing this only in the spirit of not _totally_ hogging the code for myself.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I have been meaning to do this FOREVER and I finally did: a local service that populates new browser tabs with random selections from my very large database of notes. The idea is to keep the stew circulating. Aerate the deeper layers. Maybe it will drive me mad. We&#39;ll see. <a href="https://t.co/t6c9JT5uju">pic.twitter.com/t6c9JT5uju</a></p>&mdash; Robin Sloan (@robinsloan) <a href="https://twitter.com/robinsloan/status/1017202162219143168?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+
+Here, you'll find the hacky work of an afternoon packaged up for macOS and... odds are good you *won't* be able to get it to run on your computer! I'm sharing this only in the spirit of not _totally_ hogging the code for myself.
 
 If you want to give it a shot, here's what you should do.
 
