@@ -13,6 +13,7 @@ First, clone this project, install the requirements, and tell your computer it's
 ```
 git clone https://github.com/robinsloan/note-server
 cd note-server
+gem install rack
 gem install bundler
 bundle install
 chmod +x serve_note_server.sh
