@@ -36,7 +36,7 @@ pwd
 
 Then, open the file `com.robinsloan.note_server.plist` with a text editor and replace the string `PATH_TO_NOTE_SERVER_DIRECTORY_HERE` with the absolute path you just printed out.
 
-**I will repeat that this is the fiddliest but most important step.**
+**This has been the fiddly but important step.**
 
 Having fiddled with that successfully, you can register the ✨LaunchAgent✨ that will automatically start this server when you log into your computer:
 
