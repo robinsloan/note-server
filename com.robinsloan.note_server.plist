@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Label</key>
+  <string>com.robinsloan.note_server</string>
+<key>Program</key>
+  <string>PATH_TO_NOTE_SERVER_DIRECTORY_HERE/serve_note_server.sh</string>
+<key>StandardOutPath</key>
+  <string>/Users/robin/Dropbox/dev-share/note-server/note_server_output.txt</string>
+<key>StandardErrorPath</key>
+  <string>/Users/robin/Dropbox/dev-share/note-server/note_server_error.txt</string>
+<key>RunAtLoad</key>
+  <true/>
+<key>KeepAlive</key>
+  <false/>
+<key>LaunchOnlyOnce</key>
+  <true/>
+</dict>
+</plist>
