@@ -1,4 +1,4 @@
 #!bin/bash
 
-cd /Users/robin/Dropbox/dev-share/note-server
-/Users/robin/.rbenv/shims/rackup -p 9988 -E development -D
+cd PATH_TO_NOTE_SERVER_DIRECTORY_HERE
+rackup -p 9988 -E development -D
