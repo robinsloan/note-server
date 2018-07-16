@@ -36,6 +36,8 @@ pwd
 
 Then, open the file `com.robinsloan.note_server.plist` with a text editor and replace the string `PATH_TO_NOTE_SERVER_DIRECTORY_HERE` with the absolute path you just printed out.
 
+And now—that cool thing you just did? Do it once more in `serve_note_server.sh`, making sure to keep the `cd` and only replace `PATH_TO_NOTE_SERVER_DIRECTORY_HERE`.
+
 **This has been the fiddly but important step.**
 
 Having fiddled with that successfully, you can register the ✨LaunchAgent✨ that will automatically start this server when you log into your computer:
