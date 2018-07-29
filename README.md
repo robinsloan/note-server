@@ -2,13 +2,13 @@
 
 ![An example of a note in a browser tab](/img/note-example.png)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I have been meaning to do this FOREVER and I finally did: a local service that populates new browser tabs with random selections from my very large database of notes. The idea is to keep the stew circulating. Aerate the deeper layers. Maybe it will drive me mad. We&#39;ll see. <a href="https://t.co/t6c9JT5uju">pic.twitter.com/t6c9JT5uju</a></p>&mdash; Robin Sloan (@robinsloan) <a href="https://twitter.com/robinsloan/status/1017202162219143168?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+I'd been meaning to do this FOREVER and I finally did: a local server suitable for populating new browser tabs with random selections from a database of notes.
 
-Here, you'll find the hacky work of an afternoon packaged up for macOS and... odds are good you *won't* be able to get it to run on your computer! I'm sharing this only in the spirit of not _totally_ hogging the code for myself.
+Here, you'll find the hacky project packaged up for for macOS, and odds are good you *won't* be able to get it to run on your computer! I'm sharing this only in the spirit of not totally hogging the code for myself.
 
 If you want to give it a shot, here's what you should do.
 
-First, clone this project, install the requirements, and tell your computer it's okay to run the script that launches the server.
+First, clone this project, install the requirements, and tell your computer it's okay to run the script that launches the server:
 
 ```
 git clone https://github.com/robinsloan/note-server
@@ -24,7 +24,7 @@ Now, get your notes together in however many directories you desire. The two sup
 1. a bunch of plain text files, each containing the text of one note, and
 2. one or more YAML files, each containing one unnamed array with one note per line.
 
-Next, specify the paths to those directories in `directories.yml`. I'm using relative paths that point to subdirectories within the `notes-server` directory, but you can point elsewhere if you prefer, e.g. `/Users/robin/Documents/All\ My\ Thoughts\ And\ Feelings/` or `~/Dropbox/my_directory_full_of_notes/`
+Next, specify the paths to those directories in `directories.yml`. I'm using relative paths that point to subdirectories within the `notes-server` directory, but you can point elsewhere if you prefer, e.g. `/Users/ingmar/Documents/All\ My\ Thoughts\ And\ Feelings/` or `~/Dropbox/my_directory_full_of_notes/`
 
 **Here is a fiddly but important step.**
 
